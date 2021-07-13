@@ -20,6 +20,8 @@ const ResultPage = () => {
 
   const name = location.state.name.trim().toUpperCase();
   const centre = location.state.centre;
+  console.log(centre);
+  console.log(name);
 
   const [finalResultList, setfinalResultList] = useState([]);
 
@@ -44,11 +46,10 @@ const ResultPage = () => {
     var resultsFromCentre = jsonQuery(`[*centre=${centre}]`, { data: res });
 
     var resultsList = resultsFromCentre.value;
+    console.log(resultsList);
     var resultFromNames = resultsList.filter((s) => {
-      return (
-        s.name.split(" ")[0].includes(name) ||
-        s.name.split(" ")[2].includes(name)
-      );
+      var split = s.name.split(" ");
+      return split[0].includes(name) || split[split.length - 1].includes(name);
     });
     return resultFromNames;
   }

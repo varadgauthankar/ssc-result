@@ -3268,6 +3268,39 @@
   },
   {
     "centre": "bicholim",
+    "name": "HASSINA BI ADAM KARVESHKAR",
+    "seat": 10104,
+    "totalMarks": "358",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "48"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "77"
+      },
+      {
+        "subject": "Urdu T.L.",
+        "marks": "54"
+      },
+      {
+        "subject": "Mathematics Level -1 (E)",
+        "marks": "36"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "72"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "71"
+      }
+    ]
+  },
+  {
+    "centre": "bicholim",
     "name": "HUMAYRA HASSAN MAMLEKAR",
     "seat": 10105,
     "totalMarks": "467",
@@ -14356,6 +14389,39 @@
   },
   {
     "centre": "bicholim",
+    "name": "LAXIMAN MAHESH  SAWAIKAR",
+    "seat": 10443,
+    "totalMarks": "343",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "56"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "61"
+      },
+      {
+        "subject": "Marathi T.L.",
+        "marks": "57"
+      },
+      {
+        "subject": "Mathematics Level -2 (E)",
+        "marks": "59"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "60"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "50"
+      }
+    ]
+  },
+  {
+    "centre": "bicholim",
     "name": "LOKESH LADU THANEKAR",
     "seat": 10444,
     "totalMarks": "345",
@@ -18976,6 +19042,39 @@
   },
   {
     "centre": "bicholim",
+    "name": "SARVESH SAHADEV GAONKAR",
+    "seat": 10584,
+    "totalMarks": "356",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "36"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "66"
+      },
+      {
+        "subject": "Marathi T.L.",
+        "marks": "58"
+      },
+      {
+        "subject": "Mathematics Level -2 (E)",
+        "marks": "60"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "55"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "45"
+      }
+    ]
+  },
+  {
+    "centre": "bicholim",
     "name": "SHIVANI KESHAV GAONKAR",
     "seat": 10585,
     "totalMarks": "342",
@@ -19235,39 +19334,6 @@
       {
         "subject": "Science(E)",
         "marks": "50"
-      }
-    ]
-  },
-  {
-    "centre": "bicholim",
-    "name": "VIVEK VISHNU GAONKAR",
-    "seat": 10593,
-    "totalMarks": "353",
-    "finalResult": "PASSES",
-    "subjects": [
-      {
-        "subject": "English F.L.",
-        "marks": "34"
-      },
-      {
-        "subject": "Hindi S.L.",
-        "marks": "60"
-      },
-      {
-        "subject": "Marathi T.L.",
-        "marks": "64"
-      },
-      {
-        "subject": "Mathematics Level -2 (E)",
-        "marks": "60"
-      },
-      {
-        "subject": "Social Science(E)",
-        "marks": "53"
-      },
-      {
-        "subject": "Science(E)",
-        "marks": "45"
       }
     ]
   },
@@ -28909,6 +28975,39 @@
   },
   {
     "centre": "bicholim",
+    "name": "PRITESH ANIL MAULINGKAR",
+    "seat": 10893,
+    "totalMarks": "324",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "41"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "56"
+      },
+      {
+        "subject": "Marathi T.L.",
+        "marks": "62"
+      },
+      {
+        "subject": "Mathematics Level -1 (E)",
+        "marks": "47"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "50"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "47"
+      }
+    ]
+  },
+  {
+    "centre": "bicholim",
     "name": "ROHIT RAMESH MATNEKAR",
     "seat": 10894,
     "totalMarks": "393",
@@ -32633,39 +32732,6 @@
       {
         "subject": "Science(E)",
         "marks": "64"
-      }
-    ]
-  },
-  {
-    "centre": "bicholim",
-    "name": "TRUPTESH DASHARATH  SHINDE",
-    "seat": 11009,
-    "totalMarks": "496",
-    "finalResult": "PASSES",
-    "subjects": [
-      {
-        "subject": "English F.L.",
-        "marks": "73"
-      },
-      {
-        "subject": "Hindi S.L.",
-        "marks": "85"
-      },
-      {
-        "subject": "Marathi T.L.",
-        "marks": "86"
-      },
-      {
-        "subject": "Mathematics Level -1 (E)",
-        "marks": "87"
-      },
-      {
-        "subject": "Social Science(E)",
-        "marks": "85"
-      },
-      {
-        "subject": "Science(E)",
-        "marks": "80"
       }
     ]
   },
@@ -43495,39 +43561,6 @@
   },
   {
     "centre": "canacona",
-    "name": "PRITHVIRAJ KRISHNA PAGI",
-    "seat": 11367,
-    "totalMarks": "455",
-    "finalResult": "PASSES",
-    "subjects": [
-      {
-        "subject": "Functional English F.L",
-        "marks": "78"
-      },
-      {
-        "subject": "Functional Hindi S.L.",
-        "marks": "85"
-      },
-      {
-        "subject": "Functional Marathi  T.L.",
-        "marks": "81"
-      },
-      {
-        "subject": "Mathematics Level -2 (E)",
-        "marks": "40"
-      },
-      {
-        "subject": "Geography & Economics (E)",
-        "marks": "89"
-      },
-      {
-        "subject": "General Science (E)",
-        "marks": "82"
-      }
-    ]
-  },
-  {
-    "centre": "canacona",
     "name": "AARON DWAYNE FERNANDES",
     "seat": 11368,
     "totalMarks": "410",
@@ -46262,39 +46295,6 @@
       {
         "subject": "Science(E)",
         "marks": "66"
-      }
-    ]
-  },
-  {
-    "centre": "canacona",
-    "name": "SNEHA SANTOSH  GAONKAR",
-    "seat": 11455,
-    "totalMarks": "281",
-    "finalResult": "PASSES",
-    "subjects": [
-      {
-        "subject": "English F.L.",
-        "marks": "39"
-      },
-      {
-        "subject": "Hindi S.L.",
-        "marks": "48"
-      },
-      {
-        "subject": "Marathi T.L.",
-        "marks": "40"
-      },
-      {
-        "subject": "Mathematics Level -2 (E)",
-        "marks": "40"
-      },
-      {
-        "subject": "Social Science(E)",
-        "marks": "57"
-      },
-      {
-        "subject": "Science(E)",
-        "marks": "47"
       }
     ]
   },
@@ -73195,72 +73195,6 @@
   },
   {
     "centre": "cuncolim",
-    "name": "JOLLYTON  FERNANDES",
-    "seat": 12278,
-    "totalMarks": "229",
-    "finalResult": "PASSES",
-    "subjects": [
-      {
-        "subject": "English F.L.",
-        "marks": "33"
-      },
-      {
-        "subject": "Hindi S.L.",
-        "marks": "36"
-      },
-      {
-        "subject": "Konkani T.L.",
-        "marks": "37"
-      },
-      {
-        "subject": "Mathematics Level -2 (E)",
-        "marks": "42"
-      },
-      {
-        "subject": "Social Science(E)",
-        "marks": "36"
-      },
-      {
-        "subject": "Science(E)",
-        "marks": "45"
-      }
-    ]
-  },
-  {
-    "centre": "cuncolim",
-    "name": "JOSHUA  PINTO",
-    "seat": 12279,
-    "totalMarks": "270",
-    "finalResult": "PASSES",
-    "subjects": [
-      {
-        "subject": "English F.L.",
-        "marks": "47"
-      },
-      {
-        "subject": "Hindi S.L.",
-        "marks": "44"
-      },
-      {
-        "subject": "Konkani T.L.",
-        "marks": "51"
-      },
-      {
-        "subject": "Mathematics Level -2 (E)",
-        "marks": "39"
-      },
-      {
-        "subject": "Social Science(E)",
-        "marks": "50"
-      },
-      {
-        "subject": "Science(E)",
-        "marks": "39"
-      }
-    ]
-  },
-  {
-    "centre": "cuncolim",
     "name": "JUBAL JOYDON FERNANDES",
     "seat": 12280,
     "totalMarks": "292",
@@ -73751,39 +73685,6 @@
       {
         "subject": "Science(E)",
         "marks": "53"
-      }
-    ]
-  },
-  {
-    "centre": "cuncolim",
-    "name": "NAHSHON  MARTINS",
-    "seat": 12295,
-    "totalMarks": "309",
-    "finalResult": "PASSES",
-    "subjects": [
-      {
-        "subject": "English F.L.",
-        "marks": "63"
-      },
-      {
-        "subject": "Hindi S.L.",
-        "marks": "49"
-      },
-      {
-        "subject": "Konkani T.L.",
-        "marks": "60"
-      },
-      {
-        "subject": "Mathematics Level -2 (E)",
-        "marks": "43"
-      },
-      {
-        "subject": "Social Science(E)",
-        "marks": "46"
-      },
-      {
-        "subject": "Science(E)",
-        "marks": "48"
       }
     ]
   },
@@ -85862,6 +85763,39 @@
       {
         "subject": "Science(E)",
         "marks": "49"
+      }
+    ]
+  },
+  {
+    "centre": "curchorem",
+    "name": "SUSANA  GOMES",
+    "seat": 12667,
+    "totalMarks": "555",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "96"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "84"
+      },
+      {
+        "subject": "Konkani T.L.",
+        "marks": "92"
+      },
+      {
+        "subject": "Mathematics Level -2 (E)",
+        "marks": "96"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "92"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "95"
       }
     ]
   },
@@ -101245,39 +101179,6 @@
   },
   {
     "centre": "curchorem",
-    "name": "GIFFORD ANTHONY  LOBO",
-    "seat": 13154,
-    "totalMarks": "541",
-    "finalResult": "PASSES",
-    "subjects": [
-      {
-        "subject": "English F.L.",
-        "marks": "84"
-      },
-      {
-        "subject": "Hindi S.L.",
-        "marks": "89"
-      },
-      {
-        "subject": "Konkani T.L.",
-        "marks": "85"
-      },
-      {
-        "subject": "Mathematics Level -1 (E)",
-        "marks": "92"
-      },
-      {
-        "subject": "Social Science(E)",
-        "marks": "95"
-      },
-      {
-        "subject": "Science(E)",
-        "marks": "96"
-      }
-    ]
-  },
-  {
-    "centre": "curchorem",
     "name": "KHUSHI APANNA  MADHER",
     "seat": 13155,
     "totalMarks": "453",
@@ -103555,39 +103456,6 @@
   },
   {
     "centre": "curchorem",
-    "name": "ROHAN RAJENDRA KUMAR",
-    "seat": 13224,
-    "totalMarks": "383",
-    "finalResult": "PASSES",
-    "subjects": [
-      {
-        "subject": "English F.L.",
-        "marks": "55"
-      },
-      {
-        "subject": "Hindi S.L.",
-        "marks": "50"
-      },
-      {
-        "subject": "Konkani T.L.",
-        "marks": "70"
-      },
-      {
-        "subject": "Mathematics Level -2 (E)",
-        "marks": "74"
-      },
-      {
-        "subject": "Social Science(E)",
-        "marks": "74"
-      },
-      {
-        "subject": "Science(E)",
-        "marks": "60"
-      }
-    ]
-  },
-  {
-    "centre": "curchorem",
     "name": "VEERBHADRA VITHAL MADAMAGERI",
     "seat": 13225,
     "totalMarks": "241",
@@ -104804,39 +104672,6 @@
       {
         "subject": "Science(E)",
         "marks": "51"
-      }
-    ]
-  },
-  {
-    "centre": "curchorem",
-    "name": "SAMUEL AGNELO FERNANDES",
-    "seat": 13266,
-    "totalMarks": "518",
-    "finalResult": "PASSES",
-    "subjects": [
-      {
-        "subject": "English F.L.",
-        "marks": "92"
-      },
-      {
-        "subject": "Hindi S.L.",
-        "marks": "82"
-      },
-      {
-        "subject": "Konkani T.L.",
-        "marks": "79"
-      },
-      {
-        "subject": "Mathematics Level -1 (E)",
-        "marks": "88"
-      },
-      {
-        "subject": "Social Science(E)",
-        "marks": "86"
-      },
-      {
-        "subject": "Science(E)",
-        "marks": "91"
       }
     ]
   },
@@ -110056,6 +109891,39 @@
   },
   {
     "centre": "kepem",
+    "name": "AKANKSHA BABU GAUNKAR",
+    "seat": 13425,
+    "totalMarks": "461",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "Functional Marathi F.L",
+        "marks": "60"
+      },
+      {
+        "subject": "Word Processing",
+        "marks": "82"
+      },
+      {
+        "subject": "Functional English  T.L.",
+        "marks": "68"
+      },
+      {
+        "subject": "Basic Cookery (E)",
+        "marks": "89"
+      },
+      {
+        "subject": "Tailoring and Cutting (E)",
+        "marks": "82"
+      },
+      {
+        "subject": "Geography & Economics (E)",
+        "marks": "80"
+      }
+    ]
+  },
+  {
+    "centre": "kepem",
     "name": "JOLLIS  D'COSTA",
     "seat": 13426,
     "totalMarks": "490",
@@ -112724,6 +112592,39 @@
       {
         "subject": "Science(E)",
         "marks": "79"
+      }
+    ]
+  },
+  {
+    "centre": "kepem",
+    "name": "SAMROY  FERNANDES",
+    "seat": 13507,
+    "totalMarks": "432",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "67"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "77"
+      },
+      {
+        "subject": "Konkani T.L.",
+        "marks": "81"
+      },
+      {
+        "subject": "Mathematics Level -2 (E)",
+        "marks": "61"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "82"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "64"
       }
     ]
   },
@@ -122035,6 +121936,39 @@
   },
   {
     "centre": "kepem",
+    "name": "VANSH POLPUTO GAONKAR",
+    "seat": 13794,
+    "totalMarks": "360",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "50"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "66"
+      },
+      {
+        "subject": "Marathi T.L.",
+        "marks": "65"
+      },
+      {
+        "subject": "Mathematics Level -1 (E)",
+        "marks": "48"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "50"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "55"
+      }
+    ]
+  },
+  {
+    "centre": "kepem",
     "name": "AKANKSHA RAJESH  TALWADKAR",
     "seat": 13795,
     "totalMarks": "490",
@@ -122426,39 +122360,6 @@
       {
         "subject": "Science(E)",
         "marks": "78"
-      }
-    ]
-  },
-  {
-    "centre": "kepem",
-    "name": "KIRTI SURESH GANGER",
-    "seat": 13807,
-    "totalMarks": "489",
-    "finalResult": "PASSES",
-    "subjects": [
-      {
-        "subject": "English F.L.",
-        "marks": "86"
-      },
-      {
-        "subject": "Hindi S.L.",
-        "marks": "86"
-      },
-      {
-        "subject": "Konkani T.L.",
-        "marks": "80"
-      },
-      {
-        "subject": "Mathematics Level -1 (E)",
-        "marks": "70"
-      },
-      {
-        "subject": "Social Science(E)",
-        "marks": "86"
-      },
-      {
-        "subject": "Science(E)",
-        "marks": "81"
       }
     ]
   },
@@ -123817,6 +123718,39 @@
   },
   {
     "centre": "kepem",
+    "name": "ANURAG ANAND  VELIP",
+    "seat": 13858,
+    "totalMarks": "348",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "47"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "67"
+      },
+      {
+        "subject": "Marathi T.L.",
+        "marks": "69"
+      },
+      {
+        "subject": "Mathematics Level -2 (E)",
+        "marks": "49"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "56"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "50"
+      }
+    ]
+  },
+  {
+    "centre": "kepem",
     "name": "ASHWIN BABU  VELIP",
     "seat": 13859,
     "totalMarks": "429",
@@ -124101,6 +124035,39 @@
       {
         "subject": "Mathematics Level -2 (E)",
         "marks": "48"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "55"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "52"
+      }
+    ]
+  },
+  {
+    "centre": "kepem",
+    "name": "LAKSHMI BHONGU  PATIL",
+    "seat": 13868,
+    "totalMarks": "323",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "41"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "58"
+      },
+      {
+        "subject": "Marathi T.L.",
+        "marks": "59"
+      },
+      {
+        "subject": "Mathematics Level -2 (E)",
+        "marks": "41"
       },
       {
         "subject": "Social Science(E)",
@@ -124510,6 +124477,39 @@
   },
   {
     "centre": "kepem",
+    "name": "IRPHANA  BANKAPUR",
+    "seat": 13881,
+    "totalMarks": "301",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "43"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "58"
+      },
+      {
+        "subject": "Konkani T.L.",
+        "marks": "64"
+      },
+      {
+        "subject": "Mathematics Level -1 (E)",
+        "marks": "43"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "41"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "52"
+      }
+    ]
+  },
+  {
+    "centre": "kepem",
     "name": "JOYRON MENINO FERNANDES",
     "seat": 13882,
     "totalMarks": "369",
@@ -124807,6 +124807,39 @@
   },
   {
     "centre": "kepem",
+    "name": "RAHUL ANIL PAWAR",
+    "seat": 13891,
+    "totalMarks": "346",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "48"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "63"
+      },
+      {
+        "subject": "Konkani T.L.",
+        "marks": "67"
+      },
+      {
+        "subject": "Mathematics Level -1 (E)",
+        "marks": "55"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "56"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "57"
+      }
+    ]
+  },
+  {
+    "centre": "kepem",
     "name": "RAHUL PRAMOD SHARMA",
     "seat": 13892,
     "totalMarks": "307",
@@ -124939,6 +124972,39 @@
   },
   {
     "centre": "kepem",
+    "name": "SANTOSH AMARJEET YADHAV",
+    "seat": 13896,
+    "totalMarks": "255",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "41"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "43"
+      },
+      {
+        "subject": "Konkani T.L.",
+        "marks": "42"
+      },
+      {
+        "subject": "Mathematics Level -1 (E)",
+        "marks": "42"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "36"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "51"
+      }
+    ]
+  },
+  {
+    "centre": "kepem",
     "name": "SEJAL SANJAY SAWANT",
     "seat": 13897,
     "totalMarks": "538",
@@ -125066,6 +125132,39 @@
       {
         "subject": "Science(E)",
         "marks": "59"
+      }
+    ]
+  },
+  {
+    "centre": "kepem",
+    "name": "TRIFAN  CARDOSO",
+    "seat": 13901,
+    "totalMarks": "422",
+    "finalResult": "PASSES",
+    "subjects": [
+      {
+        "subject": "English F.L.",
+        "marks": "74"
+      },
+      {
+        "subject": "Hindi S.L.",
+        "marks": "68"
+      },
+      {
+        "subject": "Konkani T.L.",
+        "marks": "69"
+      },
+      {
+        "subject": "Mathematics Level -1 (E)",
+        "marks": "60"
+      },
+      {
+        "subject": "Social Science(E)",
+        "marks": "69"
+      },
+      {
+        "subject": "Science(E)",
+        "marks": "82"
       }
     ]
   },
