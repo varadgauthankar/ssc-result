@@ -6,6 +6,12 @@ export const useStyles = makeStyles((theme) => ({
     minWidth: 120,
   },
 
+  root: {
+    width: "100%",
+    maxWidth: "36ch",
+    backgroundColor: theme.palette.background.paper,
+  },
+
   box: {
     display: "flex",
     flexDirection: "column",
@@ -13,5 +19,42 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     minHeight: "100vh",
     paddingBottom: "100px",
+  },
+
+  boxResult: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    // minHeight: "100vh",
+    paddingTop: "10px",
+  },
+
+  title: {
+    fontWeight: "bold",
+    fontSize: "18px",
+  },
+
+  tbTitle: {
+    fontWeight: "bold",
+    fontSize: "16px",
+  },
+
+  subTitle: {
+    fontSize: "16px",
+    color: "grey",
+  },
+
+  table: {
+    padding: "12px",
+  },
+
+  tableCont: {
+    marginLeft: "auto",
+    marginRight: "auto",
+    maxWidth: 500,
+    border: "1px solid #000000",
+    borderRadius: "8px",
+    // padding: "12px",
   },
 }));

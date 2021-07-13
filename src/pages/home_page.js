@@ -6,6 +6,7 @@ import {
   MenuItem,
   FormControl,
   Button,
+  InputLabel,
 } from "@material-ui/core";
 
 import { Spacer } from "../utils/helpers";
@@ -25,6 +26,8 @@ const HomePage = () => {
 
   const [isCentreError, setIsCentreError] = useState(false);
   const [isCentreErrorText, setCentreErrorText] = useState("");
+
+  const twitter = "https://twitter.com/varadgauthankar";
 
   const handleTextField = (event) => {
     setName(event.target.value);
@@ -49,7 +52,7 @@ const HomePage = () => {
 
   const handleSubmit = () => {
     if (validateForm()) {
-      history.push(`/result?name=${name}&centre=${centre}`);
+      history.push("/result", { name, centre });
     }
   };
 
@@ -69,8 +72,10 @@ const HomePage = () => {
         />
 
         <Spacer height={22} />
+        {/* <InputLabel id="label">fff</InputLabel> */}
         <Select
           variant="outlined"
+          label="Center"
           value={centre}
           onChange={handleMenu}
           helperText="Select Centre"
@@ -94,8 +99,15 @@ const HomePage = () => {
         <Button variant="contained" color="primary" onClick={handleSubmit}>
           SUBMIT
         </Button>
-        {/*  */}
       </FormControl>
+      <Spacer height={22} />
+
+      <h3>Developed by</h3>
+      <h3>
+        <a target="_blank" href={twitter}>
+          Varad Gauthankar
+        </a>
+      </h3>
     </Box>
   );
 };
