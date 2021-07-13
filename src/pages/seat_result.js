@@ -37,11 +37,11 @@ const SeatResult = () => {
         <Table className={classes.table}>
           <TableHead>
             <TableRow>
-              <TableCell className={classes.tbTitle} align="center">
-                SUBJECT
+              <TableCell align="center">
+                <h3>SUBJECT</h3>
               </TableCell>
-              <TableCell className={classes.tbTitle} align="center">
-                MARKS
+              <TableCell align="center">
+                <h3>MARKS</h3>
               </TableCell>
             </TableRow>
           </TableHead>
@@ -54,21 +54,23 @@ const SeatResult = () => {
             ))}
 
             <TableRow>
-              <TableCell className={classes.tbTitle} align="center">
-                TOTAL
+              <TableCell align="center">
+                <h3>TOTAL</h3>
               </TableCell>
-              <TableCell className={classes.tbTitle} align="center">
-                {data.totalMarks}
+              <TableCell align="center">
+                <h3>{data.totalMarks}</h3>
               </TableCell>
             </TableRow>
 
             <TableRow>
-              <TableCell className={classes.tbTitle} align="center">
-                FINAL RESULT
+              <TableCell align="center">
+                <h3>FINAL RESULT</h3>
               </TableCell>
-              <TableCell className={classes.tbTitle} align="center">
-                {data.finalResult} -{" "}
-                {((data.totalMarks / 600) * 100).toFixed(1)}%
+              <TableCell align="center">
+                <h3>
+                  {data.finalResult} -{" "}
+                  {((data.totalMarks / 600) * 100).toFixed(1)}%
+                </h3>
               </TableCell>
             </TableRow>
           </TableBody>

@@ -39,11 +39,6 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: "18px",
   },
 
-  tbTitle: {
-    fontWeight: "bold",
-    fontSize: "16px",
-  },
-
   subTitle: {
     fontSize: "16px",
     color: "grey",
