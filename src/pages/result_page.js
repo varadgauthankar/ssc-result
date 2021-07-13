@@ -26,6 +26,7 @@ const ResultPage = () => {
   useEffect(() => {
     setIsLoaded(false);
     queryData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   async function queryData() {

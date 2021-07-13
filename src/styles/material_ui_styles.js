@@ -19,6 +19,7 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "center",
     minHeight: "100vh",
+    padding: "12px",
     paddingBottom: "100px",
   },
 

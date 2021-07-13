@@ -39,6 +39,24 @@ const HomePage = () => {
   };
 
   const validateForm = () => {
+    if (validateName() && validateCentre()) {
+      return true;
+    } else return false;
+  };
+
+  const validateCentre = () => {
+    if (centre === "") {
+      setCentreErrorText("Select centre");
+      setIsCentreError(true);
+      return false;
+    } else {
+      setCentreErrorText("");
+      setIsCentreError(false);
+      return true;
+    }
+  };
+
+  const validateName = () => {
     if (name === "") {
       setNameErrorText("Enter the name.");
       setIsNameError(true);
@@ -80,6 +98,8 @@ const HomePage = () => {
             value={centre}
             onChange={handleMenu}
             label="Centre"
+            helperText={isCentreErrorText}
+            error={isCentreError}
           >
             <MenuItem value="sanguem">Sanguem</MenuItem>
             <MenuItem value="dharbandora">Dharbandora</MenuItem>
@@ -107,7 +127,7 @@ const HomePage = () => {
 
       <h3>Developed by</h3>
       <h3>
-        <a target="_blank" href={twitter}>
+        <a rel="noopener noreferrer" target="_blank" href={twitter}>
           Varad Gauthankar
         </a>
       </h3>
