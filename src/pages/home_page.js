@@ -71,35 +71,38 @@ const HomePage = () => {
           onChange={handleTextField}
         />
 
-        <Spacer height={22} />
-        {/* <InputLabel id="label">fff</InputLabel> */}
-        <Select
-          variant="outlined"
-          label="Center"
-          value={centre}
-          onChange={handleMenu}
-          helperText="Select Centre"
-        >
-          <MenuItem value="sanguem">Sanguem</MenuItem>
-          <MenuItem value="dharbandora">Dharbandora</MenuItem>
-          <MenuItem value="canacona">Canacona</MenuItem>
-          <MenuItem value="pernem">Pernem</MenuItem>
-          <MenuItem value="ponda">Ponda</MenuItem>
-          <MenuItem value="bicholim">Bicholim</MenuItem>
-          <MenuItem value="sattari">Sattari</MenuItem>
-          <MenuItem value="mormugao">Mormugao</MenuItem>
-          <MenuItem value="salcete">Salcete</MenuItem>
-          <MenuItem value="bardez">Bardez</MenuItem>
-          <MenuItem value="tiswadi">Tiswadi</MenuItem>
-          <MenuItem value="kepem">Kepem</MenuItem>
-        </Select>
+        <Spacer height={12} />
+        <FormControl variant="outlined" className={classes.formControl}>
+          <InputLabel id="demo-simple-select-outlined-label">Centre</InputLabel>
+          <Select
+            labelId="demo-simple-select-outlined-label"
+            id="demo-simple-select-outlined"
+            value={centre}
+            onChange={handleMenu}
+            label="Centre"
+          >
+            <MenuItem value="sanguem">Sanguem</MenuItem>
+            <MenuItem value="dharbandora">Dharbandora</MenuItem>
+            <MenuItem value="canacona">Canacona</MenuItem>
+            <MenuItem value="pernem">Pernem</MenuItem>
+            <MenuItem value="ponda">Ponda</MenuItem>
+            <MenuItem value="bicholim">Bicholim</MenuItem>
+            <MenuItem value="sattari">Sattari</MenuItem>
+            <MenuItem value="mormugao">Mormugao</MenuItem>
+            <MenuItem value="salcete">Salcete</MenuItem>
+            <MenuItem value="bardez">Bardez</MenuItem>
+            <MenuItem value="tiswadi">Tiswadi</MenuItem>
+            <MenuItem value="kepem">Kepem</MenuItem>
+          </Select>
+        </FormControl>
 
-        <Spacer height={22} />
+        <Spacer height={12} />
 
         <Button variant="contained" color="primary" onClick={handleSubmit}>
           SUBMIT
         </Button>
       </FormControl>
+
       <Spacer height={22} />
 
       <h3>Developed by</h3>
