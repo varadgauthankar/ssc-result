@@ -20,6 +20,14 @@ const ResultPage = () => {
 
   const name = location.state.name.trim().toUpperCase();
   const centre = location.state.centre.toLowerCase();
+
+  var splitName = name.split(" ");
+
+  var firstName = splitName[0];
+  var surname = " ";
+  if (splitName.length > 1) {
+    surname = splitName[splitName.length - 1];
+  }
   // console.log(centre);
   // console.log(name);
 
@@ -49,7 +57,17 @@ const ResultPage = () => {
     console.log(resultsList);
     var resultFromNames = resultsList.filter((s) => {
       var split = s.name.split(" ");
-      return split[0].includes(name) || split[split.length - 1].includes(name);
+      if (surname === " ") {
+        return (
+          split[0].includes(firstName) ||
+          split[split.length - 1].includes(surname)
+        );
+      } else {
+        return (
+          split[0].includes(firstName) &&
+          split[split.length - 1].includes(surname)
+        );
+      }
     });
     return resultFromNames;
   }

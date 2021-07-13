@@ -86,7 +86,6 @@ const HomePage = () => {
           label="Name"
           variant="outlined"
           helperText={nameErrorText}
-          placeholder="First name or Surname"
           error={isNameError}
           onChange={handleTextField}
         />
