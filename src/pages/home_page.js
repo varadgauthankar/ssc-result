@@ -122,6 +122,7 @@ const HomePage = () => {
             <MenuItem value="vasco">Vasco</MenuItem>
             <MenuItem value="navelim">Navelim</MenuItem>
             <MenuItem value="porvorim">Porvorim</MenuItem>
+            <MenuItem value="pernem">Pernem</MenuItem>
             <MenuItem value="mandrem">Mandrem</MenuItem>
             <MenuItem value="calangute">Calangute</MenuItem>
             <MenuItem value="verna">Verna</MenuItem>
