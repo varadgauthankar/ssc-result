@@ -6,6 +6,7 @@ import {
   ListItem,
   ListItemText,
   CircularProgress,
+  Divider,
 } from "@material-ui/core";
 import { useStyles } from "../styles/material_ui_styles";
 import { useHistory } from "react-router-dom";
@@ -81,7 +82,7 @@ const ResultPage = () => {
                     secondary={"Seat: " + item.seat}
                   ></ListItemText>
                 </ListItem>
-                {/* <Divider variant="inset" component="li" /> */}
+                <Divider />
               </>
             );
           })}

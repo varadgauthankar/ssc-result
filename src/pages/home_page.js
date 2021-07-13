@@ -7,6 +7,8 @@ import {
   FormControl,
   Button,
   InputLabel,
+  Typography,
+  Link,
 } from "@material-ui/core";
 
 import { Spacer } from "../utils/helpers";
@@ -31,7 +33,6 @@ const HomePage = () => {
 
   const handleTextField = (event) => {
     setName(event.target.value);
-    validateForm();
   };
 
   const handleMenu = (event) => {
@@ -85,6 +86,7 @@ const HomePage = () => {
           label="Name"
           variant="outlined"
           helperText={nameErrorText}
+          placeholder="First name or Surname"
           error={isNameError}
           onChange={handleTextField}
         />
@@ -125,12 +127,12 @@ const HomePage = () => {
 
       <Spacer height={22} />
 
-      <h3>Developed by</h3>
-      <h3>
-        <a rel="noopener noreferrer" target="_blank" href={twitter}>
+      <Typography className={classes.root}>Developed by</Typography>
+      <Typography className={classes.root}>
+        <Link color="primary" rel="noopener" target="_blank" href={twitter}>
           Varad Gauthankar
-        </a>
-      </h3>
+        </Link>
+      </Typography>
     </Box>
   );
 };
