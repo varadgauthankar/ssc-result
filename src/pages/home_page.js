@@ -103,18 +103,35 @@ const HomePage = () => {
             helperText={isCentreErrorText}
             error={isCentreError}
           >
-            <MenuItem value="sanguem">Sanguem</MenuItem>
-            <MenuItem value="dharbandora">Dharbandora</MenuItem>
+            <MenuItem value="BICHOLIM">Bicholim</MenuItem>
             <MenuItem value="canacona">Canacona</MenuItem>
-            <MenuItem value="pernem">Pernem</MenuItem>
-            <MenuItem value="ponda">Ponda</MenuItem>
-            <MenuItem value="bicholim">Bicholim</MenuItem>
-            <MenuItem value="sattari">Sattari</MenuItem>
-            <MenuItem value="mormugao">Mormugao</MenuItem>
-            <MenuItem value="salcete">Salcete</MenuItem>
-            <MenuItem value="bardez">Bardez</MenuItem>
-            <MenuItem value="tiswadi">Tiswadi</MenuItem>
+            <MenuItem value="cuncolim">Cuncolim</MenuItem>
+            <MenuItem value="curchorem">Curchorem</MenuItem>
             <MenuItem value="kepem">Kepem</MenuItem>
+            <MenuItem value="marcela">Marcela</MenuItem>
+            <MenuItem value="margao">Margao</MenuItem>
+            <MenuItem value="mangueshi">Mangueshi</MenuItem>
+            <MenuItem value="panaji">Panaji</MenuItem>
+            <MenuItem value="harmal">Harmal</MenuItem>
+            <MenuItem value="pilar">Pilar</MenuItem>
+            <MenuItem value="ponda">Ponda</MenuItem>
+            <MenuItem value="sanguem">Sanguem</MenuItem>
+            <MenuItem value="sanquelim">Sanquelim</MenuItem>
+            <MenuItem value="shiroda">Shiroda</MenuItem>
+            <MenuItem value="tisk/dharbandoda">Dharbandoda</MenuItem>
+            <MenuItem value="valpoi">Valpoi</MenuItem>
+            <MenuItem value="vasco">Vasco</MenuItem>
+            <MenuItem value="navelim">Navelim</MenuItem>
+            <MenuItem value="porvorim">Porvorim</MenuItem>
+            <MenuItem value="mandrem">Mandrem</MenuItem>
+            <MenuItem value="calangute">Calangute</MenuItem>
+            <MenuItem value="verna">Verna</MenuItem>
+            <MenuItem value="aldona">Aldona</MenuItem>
+            <MenuItem value="cujira">Cujira</MenuItem>
+            <MenuItem value="paingin">Paingin</MenuItem>
+            <MenuItem value="mapusa - a">Mapusa - a </MenuItem>
+            <MenuItem value="mapusa - b">Mapusa - b </MenuItem>
+            <MenuItem value="netravali">Netravali</MenuItem>
           </Select>
         </FormControl>
 

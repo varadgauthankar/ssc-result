@@ -19,9 +19,9 @@ const ResultPage = () => {
   const classes = useStyles();
 
   const name = location.state.name.trim().toUpperCase();
-  const centre = location.state.centre;
-  console.log(centre);
-  console.log(name);
+  const centre = location.state.centre.toLowerCase();
+  // console.log(centre);
+  // console.log(name);
 
   const [finalResultList, setfinalResultList] = useState([]);
 
@@ -37,14 +37,14 @@ const ResultPage = () => {
     var result = await getData();
     setIsLoaded(true);
     setfinalResultList(result);
-    console.log(finalResultList);
+    // console.log(finalResultList);
   }
 
   async function getData() {
     var json = await fetch("/results.json");
     var res = await json.json();
     var resultsFromCentre = jsonQuery(`[*centre=${centre}]`, { data: res });
-
+    console.log(resultsFromCentre);
     var resultsList = resultsFromCentre.value;
     console.log(resultsList);
     var resultFromNames = resultsList.filter((s) => {
