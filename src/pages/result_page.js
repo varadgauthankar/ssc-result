@@ -7,6 +7,7 @@ import {
   ListItemText,
   CircularProgress,
   Divider,
+  Typography,
 } from "@material-ui/core";
 import { useStyles } from "../styles/material_ui_styles";
 import { useHistory } from "react-router-dom";
@@ -17,7 +18,7 @@ const ResultPage = () => {
   const history = useHistory();
   const classes = useStyles();
 
-  const name = location.state.name.toUpperCase();
+  const name = location.state.name.trim().toUpperCase();
   const centre = location.state.centre;
 
   const [finalResultList, setfinalResultList] = useState([]);
@@ -61,34 +62,44 @@ const ResultPage = () => {
 
   return (
     <Box className={classes.box}>
-      <h2>
-        {finalResultList.length} results for {name}
-      </h2>
-
       {isLoaded ? (
-        <List className={classes.root}>
-          {finalResultList.map((item, index) => {
-            return (
-              <>
-                <ListItem
-                  id={index}
-                  alignItems="flex-start"
-                  button
-                  onClick={() => handleOnClick(index)}
-                >
-                  <ListItemText
-                    id={index}
-                    primary={item.name}
-                    secondary={"Seat: " + item.seat}
-                  ></ListItemText>
-                </ListItem>
-                <Divider />
-              </>
-            );
-          })}
-        </List>
+        finalResultList.length > 0 ? (
+          <>
+            <h2>
+              {finalResultList.length} results for {name}
+            </h2>
+            <List className={classes.root}>
+              {finalResultList.map((item, index) => {
+                return (
+                  <>
+                    <ListItem
+                      id={index}
+                      alignItems="flex-start"
+                      button
+                      onClick={() => handleOnClick(index)}
+                    >
+                      <ListItemText
+                        id={index}
+                        primary={item.name}
+                        secondary={"Seat: " + item.seat}
+                      ></ListItemText>
+                    </ListItem>
+                    <Divider />
+                  </>
+                );
+              })}
+            </List>
+          </>
+        ) : (
+          <>
+            <Typography variant="h6">No Results :(</Typography>
+            <Typography>
+              check spelling or try with surname/first name.
+            </Typography>
+          </>
+        )
       ) : (
-        <CircularProgress></CircularProgress>
+        <CircularProgress />
       )}
     </Box>
   );
