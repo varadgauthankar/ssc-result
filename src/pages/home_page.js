@@ -128,8 +128,8 @@ const HomePage = () => {
             <MenuItem value="aldona">Aldona</MenuItem>
             <MenuItem value="cujira">Cujira</MenuItem>
             <MenuItem value="paingin">Paingin</MenuItem>
-            <MenuItem value="mapusa - a">Mapusa - a </MenuItem>
-            <MenuItem value="mapusa - b">Mapusa - b </MenuItem>
+            <MenuItem value="mapusa - a">Mapusa - a</MenuItem>
+            <MenuItem value="mapusa - b">Mapusa - b</MenuItem>
             <MenuItem value="netravali">Netravali</MenuItem>
           </Select>
         </FormControl>

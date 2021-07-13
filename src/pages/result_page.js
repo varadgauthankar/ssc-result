@@ -60,7 +60,7 @@ const ResultPage = () => {
       if (surname === " ") {
         return (
           split[0].includes(firstName) ||
-          split[split.length - 1].includes(surname)
+          split[split.length - 1].includes(firstName)
         );
       } else {
         return (
